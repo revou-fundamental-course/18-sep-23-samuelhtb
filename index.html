@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Grocery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header class="navigation">
+        <div class="page-title">E-Grocery</div>
+        <div class="nav">
+            <a href="#title" class="nav-item">Home</a>
+            <a href="#our-package" class="nav-item">Our Package</a>
+            <a href="#call-us" class="nav-item">Call Us</a>
+        </div>
+    </header>
+
+    <main>
+        <div id="title" class="title">
+            <div class="content-title">
+                <h1>Top Rated E-Groceries Shop in Indonesia</h1>
+            </div>
+            <div class="sub-title">
+                <span>Everyday with best ingredients</span>
+            </div>
+        </div>
+        <div id="content" class="content">
+            <div id="content-left" class="content-left">
+                <div class="slide-container">
+                    <div class="slide">
+                        <div class="content-image">
+                            <img src="asset/placeholder.png" class="image active" alt="slider image">
+                            <span>Feature</span>
+                        </div>
+                        <div class="identity">
+                            <img src="asset/profile.png" class="profile-picture">
+                            <div class="identity-detail">
+                                <span class="identity-name">Nama</span>
+                                <span class="identity-work">Pekerjaan</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="content-image">
+                            <img src="asset/picture1.png" class="image" alt="slider image">
+                            <span class="pict1-text">"setiap hari beli sayur buah yang fresh di sini"</span>
+                        </div>
+                        <div class="identity">
+                            <img src="asset/profile.png" class="profile-picture">
+                            <div class="identity-detail">
+                                <span class="identity-name">Florence Hughes</span>
+                                <span class="identity-work">Ibu rumah tangga, 28</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-information"></div>
+                    <div class="information">
+                        <span>Use this space to provide users with more information about your offer. Consider it a follow-up to your headline and explain the benefits of your service or product</span>
+                    </div>
+                <div class="information-detail">
+                    <div class="point">
+                        <div class="circle">1</div>
+                    </div>
+                    <div class="point-detail">
+                        <span>Your first feature, writeen in the form of the benefit statement</span>
+                    </div>
+                </div>
+                <div class="information-detail">
+                    <div class="point">
+                        <div class="circle">2</div>
+                    </div>
+                    <div class="point-detail">
+                            <span>Your second feature, writeen in the form of the benefit statement</span>
+                    </div>
+                </div>
+                <div class="information-detail">
+                    <div class="point">
+                        <div class="circle">3</div>
+                    </div>
+                    <div class="point-detail">
+                        <span>Your third feature, writeen in the form of the benefit statement</span>
+                    </div>
+                </div>
+                
+            </div>
+            <div id="content-right" class="content-right">
+
+                <form name="content-form" class="content-form" onsubmit="ValidationForm()">
+                    <div class="contact-us">
+                        <span>Contact Us</span>
+                    </div>
+                    <div class="sub-contact-us">
+                        <span>Sales akan menghubungi anda 1x24 jam setelah data anda kami terima.</span>
+                    </div>
+                    <label for="your-name">Your Name</label>
+                    <input id="your-name" type="text" name="your-name" placeholder="First and Last Name">
+
+                    <label for="email">Email Address</label>
+                    <input id="email" type="email" name="email" placeholder="example@email.com">
+
+                    <label for="interest">What are you interested in?</label>
+                    <select id="interest" type="select" name="interest">
+                        <option value="" disabled selected hidden>Select option</option>
+                        <option value="football">Football</option>
+                        <option value="badminton">Badminton</option>
+                    </select>
+                    <input type="submit" class="send" value="SEND">
+                </form>
+            </div>
+        </div>
+
+        <div id="our-package" class="our-package-border">
+            Our Package
+        </div>
+        <div class="our-package">
+            <div class="our-package-body">
+                <div class="our-package-content">
+                    <div id="our-package-point">
+                        <img src="asset/lamp.png" class="our-package-picture">
+                    </div>
+                    <div class="our-package-title">
+                        Fresh Vegetable
+                    </div>
+                </div>
+                <div class="our-package-subtitle">
+                    Sayuran segar langsung dari sumber pertanian terbaik
+                </div>
+            </div>
+            <div class="our-package-body">
+                <div class="our-package-content">
+                    <div id="our-package-point">
+                        <img src="asset/lamp.png" class="our-package-picture">
+                    </div>
+                    <div class="our-package-title">
+                        Fresh Fruit
+                    </div>
+                </div>
+                <div class="our-package-subtitle">
+                    Buah dengan kualitas terbaik dari lokal maupun impor dan harga yang menarik
+                </div>
+            </div>
+            <div class="our-package-body">
+                <div class="our-package-content">
+                    <div id="our-package-point">
+                        <img src="asset/lamp.png" class="our-package-picture">
+                    </div>
+                    <div class="our-package-title">
+                        Instant Delivery
+                    </div>
+                </div>
+                <div class="our-package-subtitle">
+                    Dikirim instan oleh kurir yang telah ditraining dengan SOP untuk menjaga kondisi belanja kamu
+                </div>
+            </div>
+        </div>
+        <div class="our-package-small-border"></div>
+        <div class="our-package">
+            <div class="our-package-body">
+                <div class="our-package-content">
+                    <div id="our-package-point">
+                        <img src="asset/star.png" class="our-package-picture">
+                    </div>
+                    <div class="our-package-title">
+                        Kitchen ingredient
+                    </div>
+                </div>
+                <div class="our-package-subtitle">
+                    Bumbu dapur lengkap untuk keperluan memasak kamu
+                </div>
+            </div>
+            <div class="our-package-body">
+                <div class="our-package-content">
+                    <div id="our-package-point">
+                        <img src="asset/star.png" class="our-package-picture">
+                    </div>
+                    <div class="our-package-title">
+                        Kitchen Set
+                    </div>
+                </div>
+                <div class="our-package-subtitle">
+                    Segala jenis alat masa untuk membantu kamu memasak
+                </div>
+            </div>
+            <div class="our-package-body">
+                <div class="our-package-content">
+                    <div id="our-package-point">
+                        <img src="asset/star.png" class="our-package-picture">
+                    </div>
+                    <div class="our-package-title">
+                        Bunding Set
+                    </div>
+                </div>
+                <div class="our-package-subtitle">
+                    Bingung masak apa? sudah tersedia paket untuk kamu masak di dapur mu
+                </div>
+            </div>
+        </div>
+        <div class="our-package-big-border"></div>
+        <div id="call-us" class="closing-argument">
+            <div class="closing-argument-title">
+                Your Closing Argument Headline
+            </div>
+            <div class="closing-argument-subtitle">
+                Suspendisse egestas rhoncus urna in bibendum. Donec urna neque, euismod sed justo quis, convallis tincidunt risus. Phasellus fringilla odio vel erat fringilla,
+            </div>
+            <div class="closing-argument-button">
+                CALL TO ACTION
+            </div>
+            <div class="our-package-big-border"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-name">
+            E-Grocery
+        </div>
+        <div class="footer-subname">
+            <div class="footer-tos">
+                Terms of Service
+            </div>
+            <div class="footer-privacy-policy">
+                Privacy Policy
+            </div>
+        </div>
+        <div class="copyright-name">
+            ©2023 E-Grocery 
+        </div>
+    </footer>
+</body>
+</html>
