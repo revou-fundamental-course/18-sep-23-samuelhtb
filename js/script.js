@@ -1,6 +1,3 @@
-let slideIndex = 0;
-showSlides();
-
 
 function ValidationForm() {
     var name = document.getElementById("your-name").value;
@@ -14,7 +11,7 @@ function ValidationForm() {
     }
 }
 
-const carouselSlides = document.querySelectorAll(".image");
+const carouselSlides = document.querySelectorAll(".slide");
 let currentIndex = 0;
 let interval = 3000;
 
@@ -28,4 +25,6 @@ function startSlide() {
     setInterval(nextSlide, interval);
 }
 
-
+(function() {
+    startSlide()
+})()

@@ -74,6 +74,11 @@ html {
     font-style: italic;
 }
 
+.pict2-text {
+    font-size: 17px;
+    font-style: italic;
+}
+
 .active { 
     display: block;
 }
